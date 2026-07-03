@@ -1,0 +1,107 @@
+/* Light theme (default) */
+:root {
+  --color-bg: #ffffff;
+  --color-bg-secondary: #f8f9fa;
+  --color-bg-hover: #f0f0f0;
+  --color-text: #333333;
+  --color-text-heading: #1a1a1a;
+  --color-text-secondary: #666666;
+  --color-text-muted: #888888;
+  --color-border: #e0e0e0;
+  --color-border-light: #ccc;
+  --color-accent: #4a90d9;
+  --color-accent-hover: #357abd;
+  --color-accent-subtle: rgba(74, 144, 217, 0.2);
+
+  /* Priority colors */
+  --color-priority-high-bg: #fde8e8;
+  --color-priority-high-text: #c62828;
+  --color-priority-medium-bg: #fff3e0;
+  --color-priority-medium-text: #e65100;
+  --color-priority-low-bg: #e8f5e9;
+  --color-priority-low-text: #2e7d32;
+
+  /* Tags */
+  --color-tag-bg: #e3f2fd;
+  --color-tag-text: #1565c0;
+
+  /* Error */
+  --color-error-bg: #fde8e8;
+  --color-error-border: #f5c6c6;
+  --color-error-text: #c62828;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  /* Input */
+  --color-input-bg: #ffffff;
+  --color-input-border: #ccc;
+
+  /* Delete button */
+  --color-delete: #999;
+  --color-delete-hover: #c62828;
+  --color-delete-hover-bg: #fde8e8;
+
+  /* Spinner */
+  --color-spinner-track: #e0e0e0;
+  --color-spinner-head: #4a90d9;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --color-bg: #1a1a2e;
+  --color-bg-secondary: #16213e;
+  --color-bg-hover: #0f3460;
+  --color-text: #e0e0e0;
+  --color-text-heading: #ffffff;
+  --color-text-secondary: #aaaaaa;
+  --color-text-muted: #888888;
+  --color-border: #2a2a4a;
+  --color-border-light: #3a3a5a;
+  --color-accent: #5ba3ec;
+  --color-accent-hover: #7bb8f5;
+  --color-accent-subtle: rgba(91, 163, 236, 0.2);
+
+  /* Priority colors */
+  --color-priority-high-bg: #3d1515;
+  --color-priority-high-text: #ff6b6b;
+  --color-priority-medium-bg: #3d2a0a;
+  --color-priority-medium-text: #ffb74d;
+  --color-priority-low-bg: #0d3d1a;
+  --color-priority-low-text: #66bb6a;
+
+  /* Tags */
+  --color-tag-bg: #1a3a5c;
+  --color-tag-text: #90caf9;
+
+  /* Error */
+  --color-error-bg: #3d1515;
+  --color-error-border: #5c2020;
+  --color-error-text: #ff6b6b;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+  /* Input */
+  --color-input-bg: #16213e;
+  --color-input-border: #3a3a5a;
+
+  /* Delete button */
+  --color-delete: #777;
+  --color-delete-hover: #ff6b6b;
+  --color-delete-hover-bg: #3d1515;
+
+  /* Spinner */
+  --color-spinner-track: #2a2a4a;
+  --color-spinner-head: #5ba3ec;
+}
+
+/* Global base styles */
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.3s, color 0.3s;
+}

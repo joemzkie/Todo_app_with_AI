@@ -1,0 +1,51 @@
+# Todo App - Project Requirements
+
+## Prerequisites
+- Node.js >= 18.x
+- npm >= 9.x
+
+## Setup
+1. Clone the repository
+2. Run `npm install` from the project root
+3. Add your Gemini API key to `server/.env`:
+   GEMINI_API_KEY=your-key-here
+4. Run `npm run dev` to start both client and server
+
+## Root Dependencies
+- concurrently@^8.2.2 (dev - runs client + server together)
+- typescript@^5.4.0 (dev - shared compiler)
+
+## Server Dependencies (server/)
+- express@^4.18.2 (web framework)
+- cors@^2.8.5 (cross-origin requests)
+- uuid@^9.0.0 (unique ID generation)
+- @google/generative-ai@^0.21.0 (Gemini API SDK)
+- dotenv@^16.4.5 (environment variable loading)
+- tsx@^4.7.0 (dev - TypeScript execution)
+- vitest@^1.6.0 (dev - testing)
+- supertest@^6.3.3 (dev - API testing)
+
+## Client Dependencies (client/)
+- react@^18.2.0 (UI library)
+- react-dom@^18.2.0 (React DOM renderer)
+- vite@^5.1.0 (dev - build tool & dev server)
+- @vitejs/plugin-react@^4.2.1 (dev - React support for Vite)
+- vitest@^1.6.0 (dev - testing)
+- jsdom@^24.0.0 (dev - DOM simulation for tests)
+- @testing-library/react@^14.1.2 (dev - component testing)
+- @testing-library/jest-dom@^6.1.4 (dev - DOM matchers)
+- @testing-library/user-event@^14.5.2 (dev - user interaction simulation)
+- typescript@^5.4.0 (dev - type checking)
+
+## Scripts
+- `npm run dev` - Start both client (port 5173) and server (port 3001)
+- `npm run build` - Build both client and server
+- `npm run test` - Run tests for both client and server
+
+## Environment Variables
+- GEMINI_API_KEY - Google Gemini API key (required for chat assistant)
+
+## Ports
+- Client: http://localhost:5173
+- Server: http://localhost:3001
+- API proxy: /api/* → server

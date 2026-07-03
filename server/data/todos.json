@@ -1,0 +1,24 @@
+[
+  {
+    "id": "a5b2a4ea-06b0-4197-a2d2-09b07f216553",
+    "title": "Magjabol",
+    "completed": false,
+    "priority": "high",
+    "tags": [
+      "Manood ng boldtapos magjabol"
+    ],
+    "dueDate": "2026-07-03",
+    "createdAt": "2026-07-03T11:44:32.900Z"
+  },
+  {
+    "id": "4cb14084-a418-47e9-aa80-247e69c43497",
+    "title": "magaral mabuti",
+    "completed": false,
+    "priority": "medium",
+    "tags": [
+      "study to provide better future for family"
+    ],
+    "dueDate": "2026-07-04",
+    "createdAt": "2026-07-03T12:49:51.071Z"
+  }
+]
