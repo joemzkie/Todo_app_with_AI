@@ -2,7 +2,7 @@
   {
     "id": "a5b2a4ea-06b0-4197-a2d2-09b07f216553",
     "title": "Magjabol",
-    "completed": false,
+    "completed": true,
     "priority": "high",
     "tags": [
       "Manood ng boldtapos magjabol"
@@ -13,12 +13,46 @@
   {
     "id": "4cb14084-a418-47e9-aa80-247e69c43497",
     "title": "magaral mabuti",
-    "completed": false,
+    "completed": true,
     "priority": "medium",
     "tags": [
       "study to provide better future for family"
     ],
     "dueDate": "2026-07-04",
     "createdAt": "2026-07-03T12:49:51.071Z"
+  },
+  {
+    "id": "95d36e11-3832-47f9-a38b-ab1635176640",
+    "title": "Umuwi",
+    "completed": false,
+    "priority": "medium",
+    "tags": [
+      "rest"
+    ],
+    "dueDate": "2026-07-03",
+    "createdAt": "2026-07-03T13:15:42.696Z"
+  },
+  {
+    "id": "7be014dd-3938-4167-9db3-24c95bb1abc2",
+    "title": "mag dinner",
+    "completed": false,
+    "priority": "medium",
+    "tags": [
+      "rest"
+    ],
+    "dueDate": "2026-07-03",
+    "createdAt": "2026-07-03T13:16:36.332Z"
+  },
+  {
+    "id": "9a302abd-073d-43b4-915b-8cbe61700880",
+    "title": "code",
+    "completed": false,
+    "priority": "low",
+    "tags": [
+      "study",
+      "improvement"
+    ],
+    "dueDate": "2026-07-05",
+    "createdAt": "2026-07-03T13:30:26.898Z"
   }
 ]
